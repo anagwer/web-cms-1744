@@ -42,7 +42,7 @@
                                     <div class="form-group">
                                         <label>Deskripsi</label>
                                         <?php echo form_error('deskripsi'); ?>
-                                        <textarea name="deskripsi" class="form-control" rows="5" placeholder="Masukkan Deskripsi Layanan..." required><?= htmlspecialchars($layanan[0]->deskripsi) ?></textarea>
+                                        <textarea name="deskripsi" class="form-control" rows="5" id="summernote" placeholder="Masukkan Deskripsi Layanan..." required><?= htmlspecialchars($layanan[0]->deskripsi) ?></textarea>
                                         <br>
                                     </div>
 
